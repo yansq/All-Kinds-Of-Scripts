@@ -129,9 +129,9 @@
 				<key>CustomIconData</key>
 				<string>KMEP-GenericApplication-/System/Applications/Books.app</string>
 				<key>ModificationDate</key>
-				<real>699202123.33737195</real>
+				<real>699202960.833637</real>
 				<key>Name</key>
-				<string>clean_copyed_text</string>
+				<string>clean_copied_text</string>
 				<key>Triggers</key>
 				<array>
 					<dict>

@@ -1,5 +1,7 @@
 #!/usr/bin/node
 
+// npm i --save colorthief@2.3.0
+
 const fs = require('fs');
 const ColorThief = require('colorthief');
 
@@ -14,10 +16,12 @@ function getDominantColors(folderPath) {
           console.log(imagePath);
           console.log(color);
         })
-        .catch(err => { console.log(err) })
+        .catch(err => {
+          console.log(err);
+        })
     }
   });
 }
 
-const folderPath = '/Users/yansiqi/Pictures/wallpaper';
+const folderPath = '/your/path';
 getDominantColors(folderPath);
